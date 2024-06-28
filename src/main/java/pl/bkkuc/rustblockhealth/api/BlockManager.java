@@ -40,4 +40,9 @@ public interface BlockManager {
      * @return Возвращает {@code IBlock} объект, если есть.
      */
     @Nullable IBlock getBlockEditorByBlock(@NotNull Block block);
+
+    /**
+     * @return Возвращает здоровье блока, может вернуть {@code null} если он нет в ломаемых блоках.
+     */
+    @Nullable Integer getBlockHealth(@NotNull Block block);
 }
