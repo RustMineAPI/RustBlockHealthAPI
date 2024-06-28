@@ -14,7 +14,7 @@
         <dependency>
             <groupId>com.github.bkkuc01</groupId>
             <artifactId>RustBlockHealthAPI</artifactId>
-            <version>1.2</version>
+            <version>1.3</version>
         </dependency>
     </dependencies>
 
@@ -31,7 +31,7 @@ repositories {
 }
 
 dependencies {
-    compileOnly "com.github.bkkuc01:RustBlockHealthAPI:1.2"
+    compileOnly "com.github.bkkuc01:RustBlockHealthAPI:1.3"
 }
 ```
 
