@@ -31,6 +31,8 @@ public interface BlockManager {
      */
     void damageBlock(@NotNull Block block, @NotNull Player player, @NotNull ItemStack item);
 
+    IBlock loadIBlock(@NotNull Block block);
+
     /**
      * @return Возвращает текущую сессию игрока.
      */
@@ -39,7 +41,7 @@ public interface BlockManager {
     /**
      * @return Возвращает {@code IBlock} объект, если есть.
      */
-    @Nullable IBlock getBlockEditorByBlock(@NotNull Block block);
+    @Nullable IBlock getIBlockByBlock(@NotNull Block block);
 
     /**
      * @return Возвращает здоровье блока, может вернуть {@code null} если он нет в ломаемых блоках.
